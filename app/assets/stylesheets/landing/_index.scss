@@ -1,14 +1,5 @@
-.landing.landing-index{
-
-
-}
-
 section.intro {
   background-color: $dark-blue;
-  // background-image: asset-url("landing-index/hero.jpg");
-  // background-position: 43% 50%;
-  // background-size: cover;
-  // background-repeat: no-repeat;
   @include row;
 
   .hero{
@@ -23,7 +14,6 @@ section.intro {
   }
 
   .try-it{
-    // @include button($orange);
     @include button();
   }
 
@@ -46,11 +36,13 @@ section.intro {
 
 section.rock-solid {
   @include outer-container;
-  padding: 6em $base-spacing 5em;
+  padding: 5em $base-spacing 5em;
 
   h1{
     text-align: center;
     font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 1.5em;
   }
 
   .icon {
