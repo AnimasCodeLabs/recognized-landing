@@ -1,0 +1,47 @@
+.global-header{
+  @include outer-container;
+  padding: $base-spacing;
+
+  .logo{
+    display: block;
+    text-align: center;
+  }
+
+  h1 {
+    @include hide-text;
+    @include retina-image(header-logo, 189px 35px, $asset-pipeline: true);
+    @include size(189px 35px);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0;
+  }
+
+  .nav {
+    display: none;
+    text-align: center;
+  }
+
+  li{
+    margin: 1em 0;
+  }
+
+  .sign-up-link{
+    @include button($base-color: $orange);
+  }
+
+  @include media($medium-screen-up){
+    display: flex;
+
+    .nav {
+      display: block;
+      flex: 1;
+      text-align: right;
+    }
+
+    li{
+      display: inline-block;
+      margin: 0;
+      margin-left: 1em;
+    }
+  }
+}

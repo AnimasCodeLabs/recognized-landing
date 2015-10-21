@@ -1,0 +1,28 @@
+en:
+  date:
+    formats:
+      default:
+        "%m/%d/%Y"
+      with_weekday:
+        "%a %m/%d/%y"
+
+  time:
+    formats:
+      default:
+        "%a, %b %-d, %Y at %r"
+      date:
+        "%b %-d, %Y"
+      short:
+        "%B %d"
+
+  titles:
+    application: Recognized.io
+
+    landing:
+      index: Revenue Recognition for Stripe | Recognized.io
+
+  application:
+    header:
+      app_name: Recognized.io
+      sign_in: Sign in
+      sign_up: Try it Free

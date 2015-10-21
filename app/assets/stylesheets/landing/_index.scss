@@ -1,0 +1,44 @@
+.landing.landing-index{
+
+
+}
+
+section.intro{
+  background-color: $dark-blue;
+  background-image: asset-url("landing-index/hero.jpg");
+  background-position: 43% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @include row;
+
+  .hero{
+    padding: 3em 1em 4em;
+    color: $white;
+    text-align: center;
+  }
+
+  h1{
+    font-weight: 300;
+    font-size: 2.8em;
+  }
+
+  .try-it{
+    @include button($orange);
+  }
+
+  @include media($medium-screen-up){
+    .hero{
+      padding: 5em 1em 7em;
+    }
+
+    h1{
+      font-size: 3.8em;
+    }
+  }
+
+  @include media($large-screen-up){
+    .hero{
+      padding: 9em 0em 11em;
+    }
+  }
+}
