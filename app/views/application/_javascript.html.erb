@@ -3,6 +3,7 @@
 <%= yield :javascript %>
 
 <%= render "analytics" %>
+<%= render "google_analytics" %>
 
 <% if Rails.env.test? %>
   <%= javascript_tag do %>
