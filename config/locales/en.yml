@@ -20,6 +20,9 @@ en:
 
     landing:
       index: Revenue Recognition for Stripe | Recognized.io
+    legal:
+      terms_of_service: Terms of Service | Recognized.io
+      privacy: Privacy | Recognized.io
 
   application:
     header:
