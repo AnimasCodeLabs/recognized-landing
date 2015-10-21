@@ -1,5 +1,7 @@
 # Recognized-landing
 
+This is the home page of Recognized.io
+
 ## Getting Started
 
 After you have cloned this repo, run this setup script to set up your machine
