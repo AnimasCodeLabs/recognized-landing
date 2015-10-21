@@ -1,11 +1,14 @@
 <header class="global-header">
-  <%= link_to root_path, class: "logo" do %>
-    <h1><%= t(".app_name") %></h1>
-  <% end %>
+  <div class="content">
+    <%= link_to root_path, class: "logo" do %>
+      <h1><%= t(".app_name") %></h1>
+    <% end %>
 
-  <nav class="nav">
-    <ul>
-      <li><%= link_to t(".sign_in"), "https://app.recognized.io/sign_in", class: "sign-in-link" %></li>
-      <li><%= link_to t(".sign_up"), "https://app.recognized.io/sign_up", class: "sign-up-link" %></li>
-    </ul>
+    <nav class="nav">
+      <ul>
+        <li><%= link_to t(".sign_in"), "https://app.recognized.io/sign_in", class: "sign-in-link" %></li>
+        <li><%= link_to t(".sign_up"), "https://app.recognized.io/sign_up", class: "sign-up-link" %></li>
+      </ul>
+    </nav>
+  </div>
 </header>

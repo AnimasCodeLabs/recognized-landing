@@ -1,0 +1,27 @@
+body.legal {
+  .global-header {
+    border-bottom: $base-border;
+  }
+
+  .document-body{
+    @include outer-container;
+    color: $medium-gray;
+    padding: 3em $base-spacing 6em;
+  }
+
+  h2, h3 {
+    color: $dark-gray;
+  }
+
+  h2 {
+    font-size: 2.3em;
+    font-weight: 300;
+    margin-bottom: .1em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 2em 0 1.5em;
+  }
+}

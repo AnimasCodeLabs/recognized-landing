@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= render 'application/head_contents' -%>
+</head>
+<body class="<%= body_class %>">
+  <%= render "flashes" -%>
+  <%= render "application/header" %>
+  <div class="document-body">
+    <%= yield %>
+  </div>
+  <%= render "application/footer" %>
+  <%= render "javascript" %>
+</body>
+</html>

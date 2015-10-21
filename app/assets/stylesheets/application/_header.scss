@@ -1,6 +1,9 @@
 .global-header{
-  @include outer-container;
-  padding: $base-spacing;
+
+  .content {
+    @include outer-container;
+    padding: $base-spacing;
+  }
 
   .logo{
     display: block;
@@ -31,7 +34,10 @@
   }
 
   @include media($medium-screen-up){
-    display: flex;
+    .content {
+      align-items: center;
+      display: flex;
+    }
 
     .nav {
       display: block;
@@ -39,7 +45,7 @@
       text-align: right;
     }
 
-    li{
+    li {
       display: inline-block;
       margin: 0;
       margin-left: 1em;
