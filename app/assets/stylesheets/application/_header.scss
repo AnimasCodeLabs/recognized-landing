@@ -26,7 +26,8 @@
   }
 
   .sign-up-link{
-    @include button($base-color: $orange);
+    // @include button($base-color: $orange);
+    @include button;
   }
 
   @include media($medium-screen-up){
