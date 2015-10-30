@@ -115,6 +115,11 @@ section.trusted-by{
     background-image: asset-url("landing-index/nexto.png");
   }
 
+  .mapbox .logo {
+    @include size(138px 37px);
+    @include retina-image("landing-index/mapbox", 138px 37px, $asset-pipeline: true);
+  }
+
   @include media($medium-screen-up) {
     .companies {
       @include outer-container;
